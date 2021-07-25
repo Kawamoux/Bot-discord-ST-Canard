@@ -10,7 +10,7 @@ client.on('message', (message) => {
     .setTitle('Tout sur le Bot ! :duck:')
     .setColor('#FFD700')
     .addField('Commandes :', '??help : Pour tout savoir\n??pray : Pour prier le Saint-Canard\n??mc : Pour jouer à Minecraft\n??coink : Pour savoir le bruit que fait le cannard')
-    .setFooter('Fait par Kawamo', 'https://discord.com/channels/725464165673861231/729826987652153384/868908825766400001'))
+    .setFooter('Fait par Kawamo', 'https://cdn.discordapp.com/avatars/311857934831321089/29a488dffb9885f105c47f498bad0337.png?size=512'))
     }
 })
 
