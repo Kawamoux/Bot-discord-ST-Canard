@@ -5,9 +5,11 @@ const client = new Discord.Client();
 
 client.on('message', (message) => {
     if (message.content === '??help') {
-        message.delete({ timeout: 0000 })
-        message.channel.send(new Discord.MessageEmbed()
-        .setTitle('Tout sur le Bot ! :duck:'))
+    message.delete({ timeout: 0000 })
+    message.channel.send(new Discord.MessageEmbed()
+    .setTitle('Tout sur le Bot ! :duck:'))
+    .addField('Commandes :', '??help : Pour tout savoir\n??pray : Pour prier le Saint-Canard\n??mc : Pour jouer à Minecraft\n??coink : Pour savoir le bruit que fait le cannard')
+    .setFooter('Fait par Kawamo')
     }
 })
 
