@@ -9,7 +9,8 @@ client.on('message', (message) => {
     message.channel.send(new Discord.MessageEmbed()
     .setTitle('Tout sur le Bot ! :duck:')
     .setColor('#FFD700')
-    .addField('Commandes :\n', '??help : Pour tout savoir\n??pray : Pour prier le Saint-Canard\n??mc : Pour jouer à Minecraft\n??coink : Pour savoir le bruit que fait le cannard'))
+    .addField(`Commandes :
+    `, '??help : Pour tout savoir\n??pray : Pour prier le Saint-Canard\n??mc : Pour jouer à Minecraft\n??coink : Pour savoir le bruit que fait le cannard'))
     }
 })
 
