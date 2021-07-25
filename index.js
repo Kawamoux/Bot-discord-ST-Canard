@@ -19,7 +19,7 @@ client.on('message', (message) => {
 client.on('', () => {
     if (message.content === '??coink') {
     message.delete({ timeout: 0000})  
-    message.send('Le canard fait Coink Coink ! :duck:')  
+    message.channel.send('Le canard fait Coink Coink ! :duck:')  
     }
 })
 
