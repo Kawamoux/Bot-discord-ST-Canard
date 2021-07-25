@@ -8,7 +8,7 @@ client.on('message', (message) => {
     message.delete({ timeout: 0000 })
     message.channel.send(new Discord.MessageEmbed()
     .setTitle('Tout sur le Bot ! :duck:'))
-    .setDescription('Commandes :')
+    .setDescription()
     }
 })
 
