@@ -17,7 +17,7 @@ client.on('message', (message) => {
 client.on('message', (message) => {
     if (message.content === '??mc') {
     message.delete({ timeout: 0000 })
-    message.reply('veut jouer à Minecraft ! @everyone')
+    message.reply('veut jouer à Minecraft ! @here')
     }
 })
 
