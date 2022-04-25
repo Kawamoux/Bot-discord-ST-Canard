@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
+client.user.setActivity("J'attends toujours la VF de Ratatoing...");
 
 client.on('message', (message) => {
     if (message.content === '??help') {
